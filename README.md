@@ -14,7 +14,7 @@ You need to change a code(Add an API key) in Contexts folder in the ContextWrapp
 
 In the project directory, you can run:
 
-## `npm i`  
+### `npm i`  
 
 For installing the library
 
