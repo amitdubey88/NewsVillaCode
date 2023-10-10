@@ -1,4 +1,4 @@
-# NewsVillaCode
+# NewsVilla
 
 A simple news app which is built using React as a frontend library. The look is given by Bootstrap(A popular framework for designing responsive website.)
 
