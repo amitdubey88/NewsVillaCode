@@ -1,0 +1,27 @@
+
+  .loader{
+    display:flex;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .loader-img {
+    width: 120px;
+    height: 100px;
+    animation: rotate-loading 5s ease-in-out 1s;
+    align-self: center;
+  }
+  @keyframes rotate-loading {
+    0% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(0rem);
+    }
+  }  
+
+  
+ 
+  

@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.loading-bar{
+    animation: load-in 3s ease-in;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:1269px) {
+  .loading-bar{
+    margin-top: 95px;
+  }
+}
+@media screen and (max-width:989px) {
+  .loading-bar{
+    margin-top: 70px;
+  }
+}
+
+@keyframes load-in {
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 100;
+   }
+}

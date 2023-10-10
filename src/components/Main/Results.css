@@ -1,0 +1,23 @@
+.top-headlines {
+    position:sticky;
+    background-color: #ffe082;
+    border: 1px solid #ffb300;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.top-headlines h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.top-headlines p {
+    font-size: 1em;
+    color: #343a40;
+}
+
+  

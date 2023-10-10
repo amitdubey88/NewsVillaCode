@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+.backdrop{
+    position: fixed;
+    top: 0;
+    z-index:90;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    -webkit-animation: fade-in 0.7s forwards;
+    animation: fade-in 0.7s forwards;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000 !important;
+	width: 350px;
+    left: -351px;
+    font-family:"Poppins",sans-serif !important;
+    scrollbar-width: 0;
+    background-color: white;
+	height: 100vh; margin:0;
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
+}
+.modal::-webkit-scrollbar{
+    width: 0;
+}
+
+.modal-hide{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000 !important;
+	width: 350px;
+    background-color: white;
+    left: 0px;
+	height: 100vh; margin:0;
+    -webkit-animation: slide-left 0.5s forwards;
+    animation: slide-left 0.5s forwards;
+}
+
+.modal .modal-content{
+    cursor: auto;
+    position: absolute;
+    height:100%;
+    display: inline-block;
+    padding:10px;
+    background-color:white;
+    color:rgb(0, 0, 0);
+}
+.modal-hide .modal-content{
+    cursor: auto;
+    position: absolute;
+    height:100%;
+    display: inline-block;
+    padding:10px;
+    background-color:white;
+    color:rgb(0, 0, 0);
+}
+.backdrop-remove{
+    position: absolute;
+    top: 0;
+    z-index:10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    -webkit-animation: fade-out 0.7s forwards;
+    animation: fade-out 0.7s forwards;
+}
+
+
+.btn-2{
+    float:right;
+    margin-top:20px;
+    margin-right: 7px;
+}
+
+
+
+@-webkit-keyframes slide {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    100% { left: 0; }
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 0.7;} 
+ } 
+
+ @keyframes fade-out {
+    0% {opacity: 0.7;}
+    100% {opacity: 0;} 
+ } 
+
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @keyframes slide-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+  }
+@media screen and (max-width: 993px) {
+    .modal{
+        display: block;
+        width: 40rem;
+        left: calc(50% - 20rem);
+        z-index: 10;
+        width: 400px;
+        height:82%;
+        position: fixed;
+        top: 5vh;
+        left: 5%;
+        width: 90%;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        animation: slide-down 300ms ease-out forwards;
+    }
+    .modal .modal-content{
+        position: absolute;
+        height:100%;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;  
+        display: inline-block;
+        padding:10px;
+        background-color:white;
+        color:rgb(0, 0, 0);
+        border-radius: 2px;
+    }
+    .modal-hide{
+        display: block;
+        width: 40rem;
+        left: calc(50% - 20rem);
+        z-index: 10;
+        width: 400px;
+        height:82%;
+        position: fixed;
+        top: 5vh;
+        left: 5%;
+        width: 90%;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        -webkit-animation: slide-up 0.5s forwards;
+        animation: slide-up 0.5s forwards;
+    }
+}
+
