@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ### `npm i`  
 
-For installing the library
+For installing the node modules
 
 ### `npm start`
 
