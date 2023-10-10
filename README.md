@@ -4,7 +4,7 @@ A simple news app which is built using React as a frontend library. The look is 
 
 You can use your own API Key and run this app in local.
 
-You need to change a code in Contexts folder under Keys.js file and also in the AuthContextFile.
+You need to change a code(Add an API key) in Contexts folder in the ContextWrapper.js.
 
 
 
