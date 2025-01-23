@@ -6,6 +6,7 @@ You can use your own API Key and run this app in local.
 
 You need to change a code(Add an API key) in Contexts folder in the ContextWrapper.js.
 
+## You need to add API keys from NewsAPI.org
 
 
 ## To get srarted with this app
