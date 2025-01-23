@@ -10,11 +10,10 @@ You can use your own API Key and run this app in local.
 
 You need to change a code(Add an API key) in Contexts folder in the ContextWrapper.js.
 
-You need to add the keys in these lines
+You need to add the keys in these lines and uncomment it
 
-### // apiKey: /*Add your newsAPI Key here 😇* uncomment this code once api key available/ ,
-### // rapidAPICors: 🙋//Add your rapid API Key over here (This is for cors enabling for all origin. You can find any other alternative to enable it if you 
-
+### `Line 8 // apiKey: /*Add your newsAPI Key here 😇* uncomment this code once api key available/` ,
+### `Line 12 // rapidAPICors: 🙋//Add your rapid API Key over here (This is for cors enabling for all origin.`
 
 
 ## To get srarted with this app
