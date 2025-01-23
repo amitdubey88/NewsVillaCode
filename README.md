@@ -2,11 +2,19 @@
 
 A simple news app which is built using React as a frontend library. The look is given by Bootstrap(A popular framework for designing responsive website.)
 
+
+
+## You need to add API keys from NewsAPI.org
+
 You can use your own API Key and run this app in local.
 
 You need to change a code(Add an API key) in Contexts folder in the ContextWrapper.js.
 
-## You need to add API keys from NewsAPI.org
+You need to add the keys in these lines
+
+### // apiKey: /*Add your newsAPI Key here 😇* uncomment this code once api key available/ ,
+### // rapidAPICors: 🙋//Add your rapid API Key over here (This is for cors enabling for all origin. You can find any other alternative to enable it if you 
+
 
 
 ## To get srarted with this app
