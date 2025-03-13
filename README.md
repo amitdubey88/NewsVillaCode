@@ -21,7 +21,7 @@ Before running the application, ensure you have the following:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/amitsince2001/NewsVillaCode.git
+   git clone https://github.com/amitdubey88/NewsVillaCode.git
    cd NewsVillaCode
    ```
 
